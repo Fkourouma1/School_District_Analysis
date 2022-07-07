@@ -1,42 +1,39 @@
 # School_District_Analysis
 ## Overview of the school district analysis
 This project goal is to help Maria, the chief data scientist for a City Schools District, analyze data on students funding and test score as well as school data. We will be visualizing the School District Data Summary without the reading and math grades for Thomas High School ninth grades. Finally, we will be helping out visualize the District Data Summary final result. 
-## Results Using bulleted lists and images of DataFrames as support, address the following questions
-### How is the district summary affected? student count
-### How is the school summary affected?
+## Results 
+### How is the district summary affected?
+The district summary was affected by the change of the student count which previously 39,170 and now after the removal of the 9th graders in Thomas High School, the new count count was 38,709; the math average score as well as the reading average score were also impacted. We will see the details below. 
+### How is the school summary affected? 
+The school summary(for Thomas High School) was affected by looking at the average math and reading score(images are attached). In the original code, the passing was percentage was 93.27 % while the refactored shows 93.18 %. The passing reading percentage shows in the original code as 97.31% while it was down in the refactored code as 97.02 %. and the overall passing percentage was 90.95% in the original code but 90.63% in the refactored one. 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 ### How does replacing the ninth-grade scores affect the following:
         - Math and reading scores by grade
-                - Math score: the original average math score was 78.98%
+                - Math score: For the 9th graders, Thomas High School shows 83.59 for the math score in the original script, while we replace it by Nan the refactored code. The 10th graders math score was 83.09, 11th graders was 83,50  and the 12th was 83.50 for both original and refactored code.
+                - Reading score: 
+                 is 83 The original average math score was 78.98%
         - Scores by school spending: after refactoring, the school spending did not changed()see image attached)
         - Scores by school size: regarding the school size summary, we did not notice any change(see image attached)
         - Scores by school type: the school type summary were not impact by the ninth grades alteration. 
 ## Summary
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+In the school summary for the top schools, the average math score for Thomas High School was 83.42 in the original script but was  lower in the refactored code as 83.35. For the average reading score, it was 83.85 in the original while 83.90 in the refactoried code. For the overall passing percentage in the original script, it was 65.17 while it was 64.86 in the second code. The passing math percentage was 74.98 but in the second script, it was  74.76. The passing reading percentage show 85.81 in the first code while 85.66 in the refactored code. 
+The 9th graders count for Thomas High School was 461 which we subtracted from the total student count 39170 and gave a total of 38709. T
 
-district summary original, 
-Total Schools	Total Students	Total Budget	Average Math Score	Average Reading Score	% Passing Math	% Passing Reading	% Overall Passing
-0	15	39,170	$24,649,428.00	79.0	81.9	75	86	65
 
-refactored 
-Total Schools	Total Students	Total Budget	Average Math Score	Average Reading Score	% Passing Math	% Passing Reading	% Overall Passing
-0	15	38,709	$24,649,428.00	78.9	81.9	74.8	85.7	64.9
 
-overall passing percentage in the original is 65.17232575950983 but 64.85571830840374
-overall passing math and reading  count is 25528 but
-print(passing_math_percentage) 74.9808526933878 but 74.76039164018704
-print(passing_reading_percentage) 85.80546336482001 but 85.6596657108166
-new student count 38709 , student count 39,170
-average_math_score 78.98537145774827
 
-average_reading_score 81.87784018381414
 
-total_budget 24649428 original but
-9th grade for THS 461
+
+average_math_score 78.99
+
+average_reading_score 81.88
+
+
+
 
 THS_student_count Student ID    1174
 THS_passing_math_count 1094
 
 THS_math_reading_passing_count 1064
 
-district_summary_df["Total Budget"]  $24,649,428.00
+
