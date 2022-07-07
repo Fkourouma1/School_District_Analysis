@@ -17,4 +17,4 @@ Removal of the 9th graders math and reading score impacted the average math scor
         - Scores by school type: the school type summary were not impact by the ninth grades alteration. 
 ## Summary
 In the school summary for the top schools, the average math score for Thomas High School was 83.42 in the original script but was  lower in the refactored code as 83.35. For the average reading score, it was 83.85 in the original while 83.90 in the refactoried code. For the overall passing percentage in the original script, it was 65.17 while it was 64.86 in the second code. The passing math percentage was 74.98 but in the second script, it was  74.76. The passing reading percentage show 85.81 in the first code while 85.66 in the refactored code. 
-The 9th graders count for Thomas High School was 461 which we subtracted from the total student count 39170 and gave a total of 38709. 
+The 9th graders count for Thomas High School was 461 which we subtracted from the total student count 39,170 and gave a total of 38,709 students. 
